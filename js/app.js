@@ -7,7 +7,7 @@ $(docuemnt).ready(function(){
 		var username = $('input[name=username]').attr('value');
 		var username = $('input[name=message]').attr('value');
 		console.log(username);
-		console.log('!'')
+		console.log('!'');
 		$.ajax({
 			url: 'http://api.parse.com/1/classes/MessageBoard',
 			headers: {'X-Parse-Application-Id': parseID, 'X-Parse-REST-API-Key': parseRestKey}
